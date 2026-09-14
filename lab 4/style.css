@@ -1,0 +1,43 @@
+ body{
+font-family:'gill sans', Arial, Helvetica, sans-serif;
+header{
+    nav{
+        ul{
+           li{
+              a{
+                text-decoration: none;
+              }  
+           } 
+        }
+    }
+}
+
+main{
+    max-width: 900px;
+   h1{
+    color: hsl( 11, 100%, 60%);
+    font-size: 4rem;
+    font-weight: bold;
+    text-align: center;
+   }
+   p :first-child{
+font-size: 1rem;
+line-height: 3;
+   }
+   
+    div.boks1{ 
+    background-color: cadetblue;
+    opacity: 0.5;
+   }
+   /* opacity går på teksten og endrer hvor gjennomsynlig den er, mens hsl/ rgba går på hvor gjennomsynlig/ tydelig selve fargen er. I dette tilfellet vil ikke teksten påvirkes av rgba/ hsl for det er backgrunnsfargen som blir påvirket  */
+   div.boks2{ 
+    background-color: #ff5733;
+    background-image:url(https://www.fotoknudsen.no/content/blog/uploads/2025/03/spring-photography-1.jpg?w=900);
+    background-size: contain;
+   }
+   div.boks3{ 
+    background-color: rgb(0, 0, 255);;
+    text-transform: uppercase;
+   }
+}
+ }
